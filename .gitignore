@@ -1,0 +1,17 @@
+# Environment Variables & Secrets
+.env
+client_secret.json
+token.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# Logs
+*.log
+
+# OS
+.DS_Store

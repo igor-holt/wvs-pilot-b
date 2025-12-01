@@ -1,0 +1,45 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta http-equiv="refresh" content="60">
+            <title>Pilot WVS-Pilot-B-v1.0</title>
+            <style>
+                body { background: #121212; color: #e0e0e0; font-family: 'Courier New', monospace; padding: 20px; }
+                .card { border: 1px solid #333; padding: 20px; margin-bottom: 20px; border-radius: 4px; background: #1e1e1e; }
+                .stat { font-size: 2em; font-weight: bold; }
+                .badge { padding: 5px 10px; background: #f39c12; color: #000; font-weight: bold; border-radius: 3px; }
+                .meta { color: #666; font-size: 0.8em; margin-top: 10px; }
+            </style>
+        </head>
+        <body>
+            <div class="card">
+                <h1>WVS Pilot Control Board</h1>
+                <p>Status: <span class="badge">SLEEP (WAITING FOR WEEKEND)</span></p>
+                <p>Sentiment Link: 🟢 ONLINE</p>
+            </div>
+            <div class="card">
+                <h3>Financial Telemetry</h3>
+                <div style="display:flex; gap:40px;">
+                    <div>
+                        <small>PNL (USD)</small><br>
+                        <span class="stat" style="color: #27ae60">$0.00</span>
+                    </div>
+                    <div>
+                        <small>Drawdown</small><br>
+                        <span class="stat" style="color: #e0e0e0">-1.20%</span>
+                    </div>
+                    <div>
+                        <small>Budget</small><br>
+                        <span class="stat">$150.0</span>
+                    </div>
+                </div>
+            </div>
+            <div class="meta">
+                Last Sync: 2025-12-01 23:11:52 UTC <br>
+                Pilot ID: WVS-Pilot-B-v1.0 <br>
+                Environment: .env Configured
+            </div>
+        </body>
+        </html>
+        

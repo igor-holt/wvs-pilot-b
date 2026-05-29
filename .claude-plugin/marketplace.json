@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "wvs-pilot-b",
+  "owner": {
+    "name": "Igor Holt (@invariantx)",
+    "url": "https://github.com/igor-holt"
+  },
+  "description": "WVS Pilot B experimental project in the Igor Holt (@invariantx) / Genesis Conductor personal research surface. Part of lower-profile public stragglers for ecosystem manifest rollout.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/igor-holt/wvs-pilot-b",
+  "keywords": [
+    "igor-holt",
+    "invariantx",
+    "wvs-pilot",
+    "genesis-conductor",
+    "experimental",
+    "openclaw-ecosystem"
+  ],
+  "plugins": [
+    {
+      "name": "wvs-pilot-b",
+      "source": "https://github.com/igor-holt/wvs-pilot-b",
+      "description": "Experimental pilot project (WVS Pilot B) from the @invariantx research surface. Contributes to the broader Genesis Conductor agentic and infrastructure experiments. Discover the full professional OpenClaw skills at the primary marketplace.",
+      "version": "1.0.0",
+      "tags": ["experimental", "pilot", "genesis-conductor"],
+      "category": "research",
+      "homepage": "https://github.com/igor-holt/wvs-pilot-b",
+      "keywords": ["wvs pilot b", "igor holt experimental", "@invariantx research"]
+    }
+  ],
+  "links": {
+    "github": "https://github.com/igor-holt/wvs-pilot-b",
+    "main-marketplace": "https://github.com/igor-holt/openclaw-skills",
+    "x": "https://x.com/invariantx"
+  }
+}
